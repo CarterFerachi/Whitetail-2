@@ -39,7 +39,7 @@ export default function Hero({ heroImageUrl }: HeroProps) {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 md:pt-24">
         <div className="max-w-4xl">
           {/* Label */}
           <div
@@ -66,7 +66,7 @@ export default function Hero({ heroImageUrl }: HeroProps) {
 
           {/* Subheadline */}
           <p
-            className={`text-white/70 text-lg md:text-xl max-w-2xl leading-relaxed mb-12 transition-all duration-1000 delay-400 ${
+            className={`text-white/70 text-base md:text-xl max-w-2xl leading-relaxed mb-8 md:mb-12 transition-all duration-1000 delay-400 ${
               mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
@@ -96,7 +96,7 @@ export default function Hero({ heroImageUrl }: HeroProps) {
 
           {/* Stats */}
           <div
-            className={`flex flex-wrap gap-8 mt-16 pt-16 border-t border-white/10 transition-all duration-1000 delay-[800ms] ${
+            className={`flex flex-wrap gap-6 md:gap-8 mt-10 pt-10 md:mt-16 md:pt-16 border-t border-white/10 transition-all duration-1000 delay-[800ms] ${
               mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >

@@ -55,13 +55,13 @@ export default function WhyUs() {
   const inView = useInView(ref, { once: true, amount: 0.1 });
 
   return (
-    <section id="why-us" className="py-32 bg-brand-black relative overflow-hidden">
+    <section id="why-us" className="py-20 lg:py-32 bg-brand-black relative overflow-hidden">
       {/* Background accent */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-brand-gold/5 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 w-64 h-64 bg-brand-gold/3 rounded-full blur-3xl" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" ref={ref}>
-        <div className="grid lg:grid-cols-2 gap-20 items-start">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
           {/* Left column */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}

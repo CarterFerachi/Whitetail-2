@@ -32,7 +32,7 @@ export default function Contact() {
   ];
 
   return (
-    <section id="contact" className="py-32 bg-brand-charcoal relative overflow-hidden">
+    <section id="contact" className="py-20 lg:py-32 bg-brand-charcoal relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-br from-brand-gold/5 via-transparent to-brand-gold/3" />
@@ -44,7 +44,7 @@ export default function Contact() {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="text-center mb-20"
+          className="text-center mb-12 md:mb-20"
         >
           <p className="section-label mb-4">Get In Touch</p>
           <h2 className="section-title mb-6">
@@ -85,8 +85,8 @@ export default function Contact() {
               {
                 icon: <MapPin size={20} />,
                 label: "Location",
-                value: "Southeast United States",
-                sub: "Serving 6+ regional markets",
+                value: "Albany, Louisiana",
+                sub: "Serving Southeast Louisiana",
                 href: "#",
               },
             ].map((item) => (
@@ -154,7 +154,7 @@ export default function Contact() {
             ) : (
               <form
                 onSubmit={handleSubmit}
-                className="bg-brand-black border border-white/10 p-8 md:p-10 space-y-6"
+                className="bg-brand-black border border-white/10 p-5 md:p-10 space-y-5"
               >
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>

@@ -86,7 +86,7 @@ export default function Services({ images = [] }: ServicesProps) {
   const inView = useInView(ref, { once: true, amount: 0.1 });
 
   return (
-    <section id="services" className="py-32 bg-brand-dark relative overflow-hidden">
+    <section id="services" className="py-20 lg:py-32 bg-brand-dark relative overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-[0.02]">
         <div
@@ -104,7 +104,7 @@ export default function Services({ images = [] }: ServicesProps) {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-20"
+          className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12 md:mb-20"
         >
           <div>
             <p className="section-label mb-4">What We Do</p>
@@ -145,7 +145,7 @@ export default function Services({ images = [] }: ServicesProps) {
                 </div>
               )}
 
-              <div className="p-8">
+              <div className="p-6 md:p-8">
                 {/* Icon */}
                 <div className="w-14 h-14 bg-brand-gold/10 border border-brand-gold/30 flex items-center justify-center text-brand-gold mb-6 group-hover:bg-brand-gold group-hover:text-brand-black transition-all duration-300">
                   {service.icon}

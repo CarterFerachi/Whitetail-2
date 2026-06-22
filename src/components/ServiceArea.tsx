@@ -18,7 +18,7 @@ export default function ServiceArea() {
   const inView = useInView(ref, { once: true, amount: 0.2 });
 
   return (
-    <section className="py-32 bg-brand-black relative overflow-hidden">
+    <section className="py-20 lg:py-32 bg-brand-black relative overflow-hidden">
       {/* Decorative background grid */}
       <div className="absolute inset-0 opacity-5">
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
@@ -32,7 +32,7 @@ export default function ServiceArea() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" ref={ref}>
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           {/* Left */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
