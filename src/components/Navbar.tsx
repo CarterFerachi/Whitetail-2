@@ -64,10 +64,10 @@ export default function Navbar() {
           {/* CTA */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href="tel:+15555551234"
+              href="tel:+12259313738"
               className="text-brand-gold text-sm font-semibold tracking-wide hover:text-brand-gold-light transition-colors"
             >
-              (555) 555-1234
+              (225) 931-3738
             </a>
             <a href="#contact" className="btn-primary text-xs py-3 px-6">
               Free Estimate

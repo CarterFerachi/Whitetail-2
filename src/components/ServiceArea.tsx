@@ -5,12 +5,12 @@ import { motion, useInView } from "framer-motion";
 import { MapPin, Phone, ArrowRight } from "lucide-react";
 
 const areas = [
-  "North Georgia",
-  "Atlanta Metro",
-  "South Carolina Upstate",
-  "East Alabama",
-  "Middle Tennessee",
-  "Western North Carolina",
+  "Albany, Louisiana",
+  "Hammond Area",
+  "Baton Rouge Metro",
+  "Covington / Mandeville",
+  "Slidell & North Shore",
+  "Southeast Louisiana",
 ];
 
 export default function ServiceArea() {
@@ -48,10 +48,10 @@ export default function ServiceArea() {
               Clients
             </h2>
             <p className="text-white/50 text-base leading-relaxed mb-10">
-              Based in the Southeast, we travel to serve property owners,
-              developers, and contractors across a wide regional footprint. If
-              your project is outside our typical area, call us — we can often
-              accommodate.
+              Based in Albany, Louisiana, we serve property owners,
+              developers, and contractors across the greater Southeast Louisiana
+              region. If your project is outside our typical area, call us — we
+              can often accommodate.
             </p>
 
             {/* Area list */}
@@ -75,7 +75,7 @@ export default function ServiceArea() {
                 Check Your Area <ArrowRight size={16} />
               </a>
               <a
-                href="tel:+15555551234"
+                href="tel:+12259313738"
                 className="btn-outline flex items-center gap-2"
               >
                 <Phone size={16} />
@@ -109,13 +109,12 @@ export default function ServiceArea() {
                   />
                   {/* Service area dots */}
                   {[
-                    { x: 200, y: 130, label: "HQ", primary: true },
-                    { x: 160, y: 100, label: "N. Georgia" },
-                    { x: 230, y: 90, label: "SC" },
-                    { x: 130, y: 150, label: "Alabama" },
-                    { x: 270, y: 140, label: "NC" },
-                    { x: 200, y: 170, label: "Atlanta" },
-                    { x: 170, y: 60, label: "Tennessee" },
+                    { x: 200, y: 130, label: "Albany", primary: true },
+                    { x: 200, y: 90, label: "Hammond" },
+                    { x: 130, y: 130, label: "Baton Rouge" },
+                    { x: 240, y: 80, label: "Covington" },
+                    { x: 270, y: 110, label: "Slidell" },
+                    { x: 160, y: 170, label: "New Orleans" },
                   ].map((dot) => (
                     <g key={dot.label}>
                       <circle
@@ -148,12 +147,11 @@ export default function ServiceArea() {
                     </g>
                   ))}
                   {/* Connection lines */}
-                  <line x1="200" y1="130" x2="160" y2="100" stroke="#C8973A" strokeWidth="0.5" opacity="0.3" strokeDasharray="4,4" />
-                  <line x1="200" y1="130" x2="230" y2="90" stroke="#C8973A" strokeWidth="0.5" opacity="0.3" strokeDasharray="4,4" />
-                  <line x1="200" y1="130" x2="130" y2="150" stroke="#C8973A" strokeWidth="0.5" opacity="0.3" strokeDasharray="4,4" />
-                  <line x1="200" y1="130" x2="270" y2="140" stroke="#C8973A" strokeWidth="0.5" opacity="0.3" strokeDasharray="4,4" />
-                  <line x1="200" y1="130" x2="200" y2="170" stroke="#C8973A" strokeWidth="0.5" opacity="0.3" strokeDasharray="4,4" />
-                  <line x1="200" y1="130" x2="170" y2="60" stroke="#C8973A" strokeWidth="0.5" opacity="0.3" strokeDasharray="4,4" />
+                  <line x1="200" y1="130" x2="200" y2="90" stroke="#C8973A" strokeWidth="0.5" opacity="0.3" strokeDasharray="4,4" />
+                  <line x1="200" y1="130" x2="130" y2="130" stroke="#C8973A" strokeWidth="0.5" opacity="0.3" strokeDasharray="4,4" />
+                  <line x1="200" y1="130" x2="240" y2="80" stroke="#C8973A" strokeWidth="0.5" opacity="0.3" strokeDasharray="4,4" />
+                  <line x1="200" y1="130" x2="270" y2="110" stroke="#C8973A" strokeWidth="0.5" opacity="0.3" strokeDasharray="4,4" />
+                  <line x1="200" y1="130" x2="160" y2="170" stroke="#C8973A" strokeWidth="0.5" opacity="0.3" strokeDasharray="4,4" />
                 </svg>
               </div>
 

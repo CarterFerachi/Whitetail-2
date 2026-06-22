@@ -105,11 +105,11 @@ export default function Footer() {
             </h4>
             <div className="space-y-4">
               <a
-                href="tel:+15555551234"
+                href="tel:+12259313738"
                 className="flex items-center gap-3 text-white/40 hover:text-brand-gold transition-colors"
               >
                 <Phone size={14} className="text-brand-gold flex-shrink-0" />
-                <span className="text-xs">(555) 555-1234</span>
+                <span className="text-xs">(225) 931-3738</span>
               </a>
               <a
                 href="mailto:info@whitetailmgmt.com"

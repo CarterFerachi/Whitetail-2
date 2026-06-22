@@ -71,9 +71,9 @@ export default function Contact() {
               {
                 icon: <Phone size={20} />,
                 label: "Phone",
-                value: "(555) 555-1234",
+                value: "(225) 931-3738",
                 sub: "Mon–Sat 7am–6pm",
-                href: "tel:+15555551234",
+                href: "tel:+12259313738",
               },
               {
                 icon: <Mail size={20} />,
@@ -123,7 +123,7 @@ export default function Contact() {
                 for time-sensitive situations.
               </p>
               <a
-                href="tel:+15555551234"
+                href="tel:+12259313738"
                 className="text-brand-gold text-xs font-bold uppercase tracking-widest hover:text-brand-gold-light transition-colors"
               >
                 Call Emergency Line →
@@ -179,7 +179,7 @@ export default function Contact() {
                       required
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      placeholder="(555) 555-1234"
+                      placeholder="(225) 000-0000"
                       className="w-full bg-brand-charcoal border border-white/10 focus:border-brand-gold text-white text-sm px-4 py-3 outline-none transition-colors placeholder:text-white/20"
                     />
                   </div>
