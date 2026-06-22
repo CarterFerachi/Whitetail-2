@@ -78,9 +78,9 @@ export default function Contact() {
               {
                 icon: <Mail size={20} />,
                 label: "Email",
-                value: "info@whitetailmgmt.com",
+                value: "Whitetail.lm@gmail.com",
                 sub: "Response within 24 hours",
-                href: "mailto:info@whitetailmgmt.com",
+                href: "mailto:Whitetail.lm@gmail.com",
               },
               {
                 icon: <MapPin size={20} />,

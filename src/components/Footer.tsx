@@ -111,11 +111,11 @@ export default function Footer() {
                 <span className="text-xs">(225) 931-3738</span>
               </a>
               <a
-                href="mailto:info@whitetailmgmt.com"
+                href="mailto:Whitetail.lm@gmail.com"
                 className="flex items-center gap-3 text-white/40 hover:text-brand-gold transition-colors"
               >
                 <Mail size={14} className="text-brand-gold flex-shrink-0" />
-                <span className="text-xs">info@whitetailmgmt.com</span>
+                <span className="text-xs">Whitetail.lm@gmail.com</span>
               </a>
               <div className="flex items-start gap-3 text-white/40">
                 <MapPin size={14} className="text-brand-gold flex-shrink-0 mt-0.5" />
