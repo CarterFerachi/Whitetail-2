@@ -101,8 +101,8 @@ export default function Hero({ heroImageUrl }: HeroProps) {
             }`}
           >
             {[
-              { value: "500+", label: "Projects Completed" },
-              { value: "15+", label: "Years Experience" },
+              { value: "100+", label: "Projects Completed" },
+              { value: "7+", label: "Years Experience" },
               { value: "100%", label: "Licensed & Insured" },
               { value: "24/7", label: "Emergency Response" },
             ].map((stat) => (

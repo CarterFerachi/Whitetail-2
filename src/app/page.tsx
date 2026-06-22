@@ -3,7 +3,6 @@ import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import WhyUs from "@/components/WhyUs";
 import Gallery from "@/components/Gallery";
-import Equipment from "@/components/Equipment";
 import Testimonials from "@/components/Testimonials";
 import ServiceArea from "@/components/ServiceArea";
 import Contact from "@/components/Contact";
@@ -59,7 +58,6 @@ export default function Home() {
       <Services images={IMAGES.services} />
       <WhyUs />
       <Gallery images={IMAGES.gallery} />
-      <Equipment imageUrl={IMAGES.equipment} />
       <Testimonials />
       <ServiceArea />
       <Contact />
